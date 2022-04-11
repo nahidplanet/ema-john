@@ -1,0 +1,79 @@
+
+.shop-container{
+    width: 1140px;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.product-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    width: 1176px;
+    padding: 50px 145px;
+    /* overflow: hidden;
+    overflow-y: scroll;
+    height: 100vh; */
+}
+.card-container{
+    width: 263px;
+    background-color:  #f0c17c;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+.card-container .title{
+    text-transform: capitalize;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    margin-top: 28px;
+    color: #1C2B35;
+}
+.card-container ul{
+    margin:20px ;
+    padding: 0;
+    text-align: left;
+
+}
+.card-container ul li{
+    list-style: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.005em;
+    color: #2A414F;
+    margin: 10px 0;
+}
+.card-container .total{
+    margin: 10px 20px;
+}
+.card-container .group-btn{
+    margin: 10px 20px;
+    
+}
+.card-container .group-btn button{
+    padding: 15px 20px;
+    border: 1px solid orange;
+    background-color: #FF3030;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    color: aliceblue;
+    font-weight: 600;
+}
+.card-container .group-btn button:hover{
+    background-color: #f01010;
+    color: rgb(210, 229, 247);
+
+}
+.group-btn button span{
+    margin-left: 7px;
+}
+/* small mobile :320px. */
+
